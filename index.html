@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant Web Site</title>
+</head>
+<body>
+    <!--header başlangıc-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img 
+            width="100"
+            src="yemek.image/logo.png" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="buttons">
+            <button id="search-btn">
+                <i  class="fas fa-search"></i>
+     </button>
+     <button id="cart-btn">
+        <i class="fas fa-shopping-cart"></i>
+     </button>
+
+     <button id="menu-btn">
+        <i class="fas fa-bars"></i>
+     </button>
+        </div>
+
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box"
+            placeholder="search here">
+            <i class="fas fa-search"></i>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i  class="fas fa-times"></i>
+                <img src="yemek.image/menu-1.png" alt="menu">
+                <div class="content">
+                    <h3>card item 01</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+
+            </div>
+            <div class="cart-item">
+                <i  class="fas fa-times"></i>
+                <img src="yemek.image/menu-2.png" alt="menu">
+                <div class="content">
+                    <h3>card item 02</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+
+            </div>
+            <div class="cart-item">
+                <i  class="fas fa-times"></i>
+                <img src="yemek.image/menu-3.png" alt="menu">
+                <div class="content">
+                    <h3>card item 03</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+
+            </div>
+            
+            <div class="cart-item">
+                <i  class="fas fa-times"></i>
+                <img src="yemek.image/menu-4.png" alt="menu">
+                <div class="content">
+                    <h3>card item 04</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+        
+    </header>
+    <!--header bitiş-->
+
+    <!--header section start-->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>EXPRESS HOME DELIVERY</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolor possimus omnis error ipsum, praesentium quas nihil dicta minus aut quos nisi numquam sed dolore itaque dolorum dolorem architecto dignissimos?</p>
+        <a href="#" class="btn">Order Now</a> 
+     </div>
+    </section>
+
+    <!--header section bitiş-->
+<!--menu section start-->
+<section class="menu" id="menu">
+    <h1 class="heading">our<span>menu</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <img src="yemek.image/menu-1.png" alt="menu">
+                <span class="menu-category">PIZZA</span>
+                <h3>6 MINI PIZZA</h3>
+                <div class="price">$104.99 <span>$199.99</span></div>
+
+
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn"> add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="yemek.image/menu-2.png" alt="menu">
+                <span class="menu-category">BURGER</span>
+                <h3>5 MINI BURGER'S</h3>
+                <div class="price">$104.99 <span>$199.99</span></div>
+
+
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn"> add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="yemek.image/menu-3.png" alt="menu">
+                <span class="menu-category">PIZZA</span>
+                <h3>2 MIXED PIZZA'S</h3>
+                <div class="price">$99.99 <span>$109.99</span></div>
+
+
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn"> add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="yemek.image/menu-4.png" alt="menu">
+                <span class="menu-category">PIZZA</span>
+                <h3>3 MEATBALL BURGER'S</h3>
+                <div class="price">$49.99 <span>$59.99</span></div>
+
+
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn"> add to cart</a>
+            </div>
+        </div>
+    </div> 
+</section>
+<!--menu section finish-->
+
+<!--products section start-->
+<section class="products" id="product">
+    <h1 class="heading">our<span>product</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <span class="title">MINI BURGER</span>
+                <a href="#" class="name">Bacon Burger</a>
+            </div>
+            <div class="image">
+                <img src="yemek.image/product-1.png" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">$6.00</b>
+                    <span class="amount">110gr/300 Cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                     
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <span class="title">MINI BURGER</span>
+                <a href="#" class="name">Bacon Burger</a>
+            </div>
+            <div class="image">
+                <img src="yemek.image/product-2.png" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">$6.00</b>
+                    <span class="amount">110gr/300 Cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                     
+                </div>
+            </div>
+        </div>
+        <div class="box dark-bg">
+            <div class="box-head">
+                <span class="title">MINI BURGER</span>
+                <a href="#" class="name">Bacon Burger</a>
+            </div>
+            <div class="image">
+                <img src="yemek.image/dark-product.jpg" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">$6.00</b>
+                    <span class="amount">110gr/300 Cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                     
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+</section>
+
+<!--product section finish-->
+
+<!--about section start-->
+<section class="about" id="about">
+    <h1 class="heading">about<span>us</span></h1>
+    <div class="row">
+        <div class="image">
+            <img src="yemek.image/about.jpg" alt="aboutus" >
+        </div>
+        <div class="content">
+            <h3> What Is The Secret Recipe Of Our Burgers?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore earum autem eaque dolor esse nam? Officiis officia, nihil nostrum quibusdam impedit ut architecto earum. Modi sed quae nulla eaque aliquid.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore earum autem eaque dolor esse nam? Officiis officia, nihil nostrum quibusdam impedit ut architecto earum. Modi sed quae nulla eaque aliquid.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore earum autem eaque dolor esse nam? Officiis officia, nihil nostrum quibusdam impedit ut architecto earum. Modi sed quae nulla eaque aliquid.</p>
+
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<!--about section finish-->
+
+<!--review section start-->
+<div class="reviwe" id="review">
+    <h1 class="heading">customer's <span>review</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="yemek.image/quote.png" alt="quote" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ratione exercitationem modi sunt dignissimos animi reiciendis eius odio odit voluptatem fugit ex explicabo deleniti, similique voluptates illo reprehenderit nulla mollitia totam blanditiis. Tempora vel rem consectetur accusantium rerum officia nam.
+            </p>
+            <img src="yemek.image/avatar-1.png" alt="user"
+            class="user"/>
+
+            <h3>Jennifer Becker</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+        </div>
+        <div class="box">
+            <img src="yemek.image/quote.png" alt="quote" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ratione exercitationem modi sunt dignissimos animi reiciendis eius odio odit voluptatem fugit ex explicabo deleniti, similique voluptates illo reprehenderit nulla mollitia totam blanditiis. Tempora vel rem consectetur accusantium rerum officia nam.
+            </p>
+            <img src="yemek.image/avatar-2.png" alt="user"
+            class="user"/>
+
+            <h3>Jhon Doe</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+        </div>
+        <div class="box">
+            <img src="yemek.image/quote.png" alt="quote" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ratione exercitationem modi sunt dignissimos animi reiciendis eius odio odit voluptatem fugit ex explicabo deleniti, similique voluptates illo reprehenderit nulla mollitia totam blanditiis. Tempora vel rem consectetur accusantium rerum officia nam.
+            </p>
+            <img src="yemek.image/avatar-3.png" alt="user"
+            class="user"/>
+
+            <h3>Lisa Jennifer</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--review section finish-->
+
+<!--contact-->
+<section class="contact" id="contact">
+    <h1 class="heading">contact<span>us</span></h1>
+    <div class="row">
+        <iframe 
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24075.705133434716!2d28.964492123436756!3d41.03699991614408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zVGFrc2ltIE1leWRhbsSxLCDFnmVoaXQgTXVodGFyLCAzNDQzNSBCZXlvxJ9sdS_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1699250669892!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+       </iframe>
+       <form>
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="name"/>
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="email"/>
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="phone number"/>
+          </div>
+          <input type="submit" class="btn" value="contact">
+       </form>
+ </div>
+</section>
+<!--contact-->
+
+<!--block-->
+<div class="blog" id="blog">
+    <h1 class="heading">our <span>blog</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="yemek.image/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">how to make burgers ?</a>
+                <span>by admin/ 10st may,2020</span>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto vero error ratione tempore atque illum obcaecati aliquid, ipsum delectus repellat ex cum similique nesciunt dolores eaque at velit eveniet rerum?
+                </p>
+                <a href="#" class="btn">Read More </a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="yemek.image/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">How To Make A Small Burger</a>
+                <span>by admin/ 11st may,2020</span>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto vero error ratione tempore atque illum obcaecati aliquid, ipsum delectus repellat ex cum similique nesciunt dolores eaque at velit eveniet rerum?
+                </p>
+                <a href="#" class="btn">Read More </a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="yemek.image/blog-3.jpg" alt="">
+            </div>
+            <div class="content" >
+                <a href="#" class="title">Tastly And Refreshing Coffee</a>
+                <span>by admin/ 21st may,2020</span>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto vero error ratione tempore atque illum obcaecati aliquid, ipsum delectus repellat ex cum similique nesciunt dolores eaque at velit eveniet rerum?
+                </p>
+                <a href="#" class="btn">Read More </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--block-->
+
+<!--footer-->
+<section class="footer">
+    <div class="search">
+        <input type="text"
+        class="search-input" placeholder="Search">
+        <button class="btn btn-primary">search</button>
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+          </div>
+
+          <div class="links">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#"> Menu</a>
+            <a href="#">Products</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+            <a href="#">Blogs</a>
+          </div>
+          <div class="credit">
+            created by <span>Emin Başbayan</span> &copy; all rights reserved
+          </div>
+</section>
+
+<!--footer-->
+
+<script src="js/script.js"></script>
+</body>
+</html>
